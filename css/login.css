@@ -1,0 +1,47 @@
+.login-formulario{
+    display: flex; /*faz a pagina acompanhar a proporção da aba*/
+    flex-direction: column; /*deixa no formato de coluna*/
+    align-items: center;/*alinha os itens no centro*/
+    justify-content: center; /* Centraliza os elementos na tela */
+    height: 100vh;/*define a altura da jan ela visivel*/
+    gap: 10px; /* Espaço entre os elementos */
+    
+}
+.mago-login{
+    display: block; /* Remove espaços extras ao redor da imagem */
+    max-width: 50%; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 150px; /* Ajuste esse valor para o tamanho desejado */
+    height: auto; /* Mantém a proporção */
+}
+.login {
+    text-align: center;
+}
+
+.input-login, .botão-login {
+    width: 200px; /* Ajuste para melhor aparência */
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #00f; /* Cor da borda (azul, por exemplo) */
+    outline: none;
+    box-shadow: 0 0 5px #00f; /* Efeito brilhante ao redor */
+    background-color: transparent;
+    color: #000; /* Cor do texto */
+}
+
+.botão-login {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.botão-login:hover {
+    background-color: #444;
+}

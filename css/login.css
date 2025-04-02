@@ -3,7 +3,7 @@
     flex-direction: column; /*deixa no formato de coluna*/
     align-items: center;/*alinha os itens no centro*/
     justify-content: center; /* Centraliza os elementos na tela */
-    height: 100vh;/*define a altura da jan ela visivel*/
+    height: 100vh;/*define a altura da janela visivel*/
     gap: 10px; /* Espaço entre os elementos */
     
 }
@@ -19,29 +19,42 @@
     text-align: center;
 }
 
-.input-login, .botão-login {
-    width: 200px; /* Ajuste para melhor aparência */
-    padding: 10px;
-    font-size: 16px;
-    text-align: center;
-    width: 200px;
-    padding: 10px;
-    font-size: 16px;
-    text-align: center;
-    border: 2px solid #00f; /* Cor da borda (azul, por exemplo) */
-    outline: none;
-    box-shadow: 0 0 5px #00f; /* Efeito brilhante ao redor */
-    background-color: transparent;
-    color: #000; /* Cor do texto */
+.botão-comecar {
+background-color: #ee665c;
+padding: 15px;
+border-radius: 8px;
+color: #fff;
+cursor: pointer;
+font-size: 1em;
+width: 100%;
+max-width: 300px;
+
 }
 
-.botão-login {
-    background-color: #000;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
 
 .botão-login:hover {
     background-color: #444;
+}
+
+.titulo{
+    color: #333;
+    font-size:  1.5em ;
+    
+}
+
+.entrada-login{
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+}
+.botão-comecar:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
 }
